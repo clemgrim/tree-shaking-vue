@@ -6,7 +6,14 @@
 </template>
 
 <script>
+import Vue from 'vue'
+import { Button } from 'bootstrap-vue/es/components'
 import HelloWorld from './components/HelloWorld.vue'
+import { a, b} from './utils'
+
+a();
+
+Vue.use(Button);
 
 export default {
   name: 'app',
